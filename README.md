@@ -19,4 +19,16 @@
 * __init__.py
 * x.py
 
+# instrucciones
 
+* En el terminal 
+
+* python setup.py sdist bdist_wheel
+
+* twine upload --repository testpypi dist/nombre-version.tar.gz dist/nombre-version-py3-none-any.whl
+
+* Google colab para comprobar si funciona
+
+# Definitiva a pypi
+
+* twine upload dist/nombre-version.tar.gz dist/nombre-version-py3-none-any.whl
